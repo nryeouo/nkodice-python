@@ -42,8 +42,3 @@ def analyseDice(result):
                 resultToWord.append(words_en[i])
                 break
     return resultToWord
-
-
-for i in range(10):
-    sixDice = rollDice(6)
-    print(f"{sixDice}: {analyseDice(sixDice)}")
